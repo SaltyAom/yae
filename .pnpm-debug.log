@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: installls",
+      "code": "ENOENT",
+      "stack": "Error: not found: installls\n    at getNotFoundError (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:41518:51)\n    at Function.whichSync [as sync] (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:41595:13)\n    at getCommandAbsolutePathSync (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:43160:44)\n    at default_1 (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:43169:32)\n    at /Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:171190:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/saltyaom/Documents/web/yae",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: installls",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: installls\n    at getNotFoundError (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:41518:51)\n    at Function.whichSync [as sync] (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:41595:13)\n    at getCommandAbsolutePathSync (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:43160:44)\n    at default_1 (/Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:43169:32)\n    at /Users/saltyaom/.volta/tools/image/node/16.14.2/pnpm-global/5/node_modules/.pnpm/pnpm@7.0.0/node_modules/pnpm/dist/pnpm.cjs:171190:39"
+    }
+  }
+}
